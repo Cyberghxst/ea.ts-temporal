@@ -20,6 +20,6 @@ export default class TemporalNowInstant extends APIFunction {
     returns = ParamType.Number
     compile = false
     run = async function() {
-        return Temporal.Now.instant().epochNanoseconds
+        return Temporal.Now.instant().epochNanoseconds.toString()
     }
 }

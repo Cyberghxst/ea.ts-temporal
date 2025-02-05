@@ -26,7 +26,7 @@ const RAW_PACKAGE_JSON = readFileSync(PACKAGE_PATH, 'utf-8')
 export const toCamelCase = (text: string): string => {
     return text.split(' ')
     .map((part, i) => i === 0 ? part.toLowerCase() : part.charAt(0).toUpperCase() + part.slice(1).toLowerCase())
-    .join(' ')
+    .join('')
 }
 
 /**
