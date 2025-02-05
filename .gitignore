@@ -128,3 +128,12 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# pnpm
+pnpm-lock.yaml
+
+# custom files
+index.js
+
+# custom folders
+__cache__
